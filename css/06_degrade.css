@@ -1,0 +1,10 @@
+ .contenu{
+  background: linear-gradient(to left, #40a497, #6840a4);
+  /* dégradé qui démarre avec la première couleur et fini avec la secondes de haut en bas(par defaut) */
+  /* to left=de gauche a droite */
+  width: 45em;
+  height: 45em;
+  margin: 0 auto;
+  border-radius: 50%;
+  /* la cette propriété (border-radio */
+ }

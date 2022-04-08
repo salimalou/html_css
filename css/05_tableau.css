@@ -1,0 +1,52 @@
+*{
+    font-family: fantasy;
+}
+
+body{
+   width: 50%;
+   /*largeur de ma page 50% de l'écran*/
+   margin: auto;
+   /*gestion automatique des marge pour que mon tableau soit centré*/ 
+}
+
+table{
+    border: 4px solid brown;
+    /*bordure -3 valeurs: épaisseur/ type de trait / couleur*/
+    border-collapse:collapse ;
+    /* par défaut la bordure contient 2 traits, pour que le trait soit unique en utilise la propriéte "colapse  */
+    width: 90%;
+    /* largeur du tableau par rapport à son contenant donc ici au body / ! /ne pas oublier la règle de l'héritage en css*/
+    margin: 25px;
+}
+
+thead,
+tfoot{
+    background-color: aqua;
+    border: 2px solid yellow;
+}
+
+tbody {
+    border: 1px solid pink;
+}
+
+th{
+    border: 1px dotted purple;
+    /* dotted= pointillés */
+    padding: 4px;
+    background-color: aqua;
+    width: 25px;
+}
+
+td{
+    font-size: 100%;
+    border: 1px dotted purple;
+    text-align: center;
+    padding: 5px;
+    /* padding=marge intérieure */
+}
+
+td:first-child{
+    /* 1er <td> pour aligner le texte à gauche de la première cellule de chaque rangée */
+    text-align: left;
+    background-color: aqua;
+}

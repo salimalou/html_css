@@ -1,0 +1,73 @@
+body{
+    font-size: 25px;
+}
+
+h1{
+    background-color: darkslategray;
+    color: white;
+}
+
+section p{
+    color: red;
+    /* tous les <p> à l'intérieur de la balise <section> */
+}
+
+section p:first-child{
+    color: darkblue;
+    /*premier <p>*/
+}
+
+section p:nth-child(even) {
+    color:lightblue;
+    /*les <p> pairs*/
+}
+
+section p:last-child{
+     color: lightgreen;
+}
+
+section p:nth-child(odd){
+    color: lightgreen;
+}
+section p:nth-child(odd){
+    color: brown;
+    /*les <p> 3,10*/
+}
+
+section p:nth-child(3),
+section p:nth-child(10){
+    color:orange;
+    /*les <p> 3,10*/
+}
+
+.zone1{
+    color:red;
+}
+
+.zone2{
+    color: gray;
+}
+
+.lime{
+    color: green;
+}
+
+#zone3{
+    background-color: bisque;
+}
+
+#zone3:after {
+    /*rajouter contenu après la zone3*/
+    content: "rajouté après";
+}
+
+#zone3:before {
+    /*rajouter contenu avant la zone 3*/
+    content: "rajouté avant";
+    background-color: aqua;
+}
+
+li:nth-child(2) {
+    background-color: darkmagenta;
+    color: white;
+}

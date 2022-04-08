@@ -1,0 +1,23 @@
+.carre{
+width: 1000px;
+height: 1000px;
+background-color:white;
+background-position: center;
+display: flex;
+{
+
+}
+.petitcarre1{
+width: 200px;
+height: 200px;
+background-color: blueviolet;
+display: flex;
+{
+
+}
+.petitcarre2{
+width: 200px;
+height: 200px;
+background-color: blueviolet;
+display: flex;
+{
