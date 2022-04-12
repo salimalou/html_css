@@ -1,0 +1,51 @@
+h1{
+    background-color: lightblue;
+    flex: auto;
+    display: block;
+    text-align: center;
+    border: 1px solid pink;
+}
+
+#block{
+    background-color: lightblue;
+    flex: auto;
+    text-align: center;
+    border: 1px solid pink;
+}
+
+a{
+    background-color: lightblue;
+    border: 1px solid pink;
+}
+
+p{
+    background-color: lightblue;
+    flex: auto;
+    text-align: center;
+    border: 1px solid pink;
+}
+
+#block1{
+    background-color: lightblue;
+    display: inline;
+    border: 1px solid pink;
+}
+
+#block2{
+    background-color: lightblue;
+    flex: auto;
+    text-align: center;
+    border: 1px solid pink;
+}
+
+#block3{
+    background-color: lightblue;
+    flex: auto;
+    border: 1px solid pink;
+    display: inline;
+}
+
+.carre{
+    display: block;
+    text-align: center;
+}

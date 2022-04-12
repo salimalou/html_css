@@ -1,0 +1,23 @@
+.main-tag{
+    /* height: 600px;
+    height: 100vh; */
+    background-color: #4a1a2c;
+    display: flex;
+    /* flex-direction:row ;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: center;
+    justify-content: space-between; */ 
+    /* valeur par défaut */
+    /* align-items: stretch; */
+    /* ligne du haut */
+    /* align-items: flex-start; */
+    /* ligne du bas */
+    /* align-items: flex-end;
+    align-items: center;
+    align-content: center;
+    align-content: flex-start;
+    align-content: flex-end;
+    align-content: space-between;
+    align-content: space-around; */
+}

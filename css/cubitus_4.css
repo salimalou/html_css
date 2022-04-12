@@ -1,0 +1,78 @@
+.vert{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    margin: 2px;
+    border-radius: 15px 25px 40px 40px;
+}
+
+.bleu{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 30px 5px 30px 5px;
+    margin: 2px;
+}
+
+.aqua{
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 50px;
+    margin: 2px;
+}
+
+.saumon{
+    background-color: salmon;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 20px 30px 20px 30px;
+    margin: 2px;
+}
+
+.rouge{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 20px 30px 20px 30px;
+    margin: 2px;
+}
+
+.blanc{
+    
+        background-color: white;
+        width: 100px;
+        height: 100px;
+        margin: 2px;
+    
+}
+
+.contenu_1{
+    display: flex;
+
+}
+
+.contenu_2{
+    display: flex;
+}
+
+.contenu_3{
+    display: flex;
+
+}
+
+.contenu_4{
+    display: flex;
+}
+.contenu_5{
+    display: flex;
+}
+
+.contenu_6{
+    display: flex;
+}

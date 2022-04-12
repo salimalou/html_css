@@ -1,0 +1,48 @@
+body{
+    margin: 0 auto;
+    /* 
+    margin: 0 auto 0 auto; ->haut droite t
+    margin: 0;
+    margin:0 auto 1; (gauche ->auto)
+     */
+     background-color: antiquewhite;
+}
+
+div{
+    width: 90%;
+    margin: 0;
+    background-color:lightblue;
+}
+p{
+    background-color: mediumaquamarine;
+    /* propriéte suivante a tester ! */
+    /* *display:inline;* */
+}
+
+p span{
+    /* sélectionne les span contenus dans des p */
+    background-color: yellow;
+}
+
+.boite{
+    height: 11vh;
+    width: 18vh;
+    padding: 5vh;
+    background: url(../img/fruitrouge.jfif);
+    background-repeat: no-repeat;
+    border: 5px double orchid;
+    /* taille, style, couleur de la bordure */
+    margin: 2vh;
+    float: left;
+    transition: margin 0.5s;
+}
+
+.boite:hover{
+    /* la pseudo-class: hover modifie un affichage au */
+    margin-top: 10vh;
+}
+
+.clear{
+    clear: both;
+    /* supprimer l'effet floatant */
+}

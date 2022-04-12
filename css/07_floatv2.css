@@ -1,0 +1,27 @@
+.boite1{
+    width: 5vh;
+    height: 8vh;
+    padding: 5vh;
+    background-repeat: no-repeat;
+    margin: 2vh;
+    float: left;
+    transition: margin 0.5s;
+    background-color: purple;
+    border-radius: 10%;
+}
+
+.boite2{
+    width: 5vh;
+    height: 8vh;
+    padding: 5vh;
+    background-repeat: no-repeat;
+    margin: 2vh;
+    float: left;
+    transition: margin 0.5s;
+    background-color: green;
+    border-radius: 10%;
+}
+
+.clear{
+    clear: both;
+}
