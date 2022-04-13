@@ -1,29 +1,65 @@
-body{
+.container {
+    width: 960px;
+    background: antiquewhite;
     color: white;
-    font-size: 25px;
-}
-
-#conteneur{
-    width: 80%;
     margin: 0 auto;
-    border: 2px solid darkgray;
 }
 
-header{
-    background-color: #8e3557;
+header {
+    background: orangered;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+
+nav {
+    background: gray;
     height: 30px;
+    line-height: 30px;
+    text-align: center;
 }
 
-section{
-    background-color: #787746;
+main {
     height: 500px;
-    margin: 20px;
+    background: gray;
+    margin: 10px;
 }
 
- footer{  /*on aurait pu synthétiser le code avec */
-background-color: #4ala2c;
-height: 100px;
-
+.larger-zone {
+    border: 1px solid;
+    float: left;
+    height: 248px;
+    width: 468px;
 }
 
-.a, .b,
+.small-zone {
+    border: 1px solid;
+    float: left;
+    height: 122px;
+    line-height: 122px;
+    text-align: center;
+    width: 232px;
+}
+
+.gold {
+    background: gold;
+}
+
+.dodgerblue {
+    background: dodgerblue;
+}
+
+.palegreen {
+    background: palegreen;
+}
+
+.orange {
+    background: orange;
+}
+
+footer {
+    background: gray;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+}
