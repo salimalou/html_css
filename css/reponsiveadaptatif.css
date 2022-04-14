@@ -1,0 +1,30 @@
+.zone-adaptative{
+    width: 200px;
+    background-color: red;
+    padding: 10px;
+    color: white;
+}
+ 
+ @media(max-width: 1200px) {
+    .zone-adaptative{
+        width: 1170px;
+        background-color: orange;
+    }
+}
+
+ @media(max-width: 922px){
+.zone-adaptative{
+    background-color: blue;
+    width: 970px;
+    height: 970px;
+  }  
+}
+
+@media(max-width: 768px) {
+    .zone-adaptative{
+        width: 750px;
+        background-color: green;
+    }
+}
+
+

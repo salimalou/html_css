@@ -1,0 +1,72 @@
+.container {
+    width:1200px;
+    background: antiquewhite;
+    color: white;
+    margin: 0 auto;
+}
+
+header {
+    background: orangered;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+
+nav {
+    background: gray;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+section {
+    height: auto;
+    background: gray;
+    margin: 10px;
+    display: flex;
+}
+
+.larger-zone {
+    border: 1px solid;
+    height: 248px;
+    display: flex;
+    flex-flow:row wrap;
+}
+
+.small-zone {
+    border: 1px solid;
+    height: 122px;
+    line-height: 122px;
+    text-align: center;
+}
+
+.gold {
+    background: gold;
+}
+
+.dodgerblue {
+    background: dodgerblue;
+}
+
+.palegreen {
+    background: palegreen;
+}
+
+.orange {
+    background: orange;
+}
+
+footer {
+    background: gray;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+}
+
+.main{
+    display: flex;
+}
+
+.main.s{
+    display: flex;
+}

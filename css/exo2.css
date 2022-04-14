@@ -1,0 +1,49 @@
+header{
+    background-color: red;
+    height: 60px;
+    width: 800px;
+    line-height: 60px;
+    text-align: center;
+    margin: auto;
+}
+
+.main{
+    height: 600px;
+    width: 800px;
+    margin: auto;
+}
+
+.zonedegauche{
+    height: 530px;
+    width: 150px;
+    background-color: blue;
+    display:flex ;
+    text-align: center;
+    line-height: 60px;
+    float: left;
+}
+
+.zone1{
+background-color: green;
+height: 448px;
+width: 98px;
+border: 1px solid black;
+text-align: center;
+line-height: 60px;
+float: left;
+}
+
+.footer{
+    background-color: yellow;
+    width: 498px;
+    height: 80px;
+    text-align: center;
+    line-height: 60px;
+    display: flex;
+    position: relative;
+    bottom: 80px;
+    left: 152px;
+}
+.clear{
+    clear: both;
+}
