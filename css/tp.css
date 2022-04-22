@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light");
+
+.conteneur {
+  background-color: #273978;
+  width: 50%;
+  margin: 2vh auto;
+  font-family: "Shadows Into Light", cursive;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.carre {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+figure {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 1280px) {
+  figure {
+    width: 33%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  figure {
+    width: 45%;
+  }
+}
+.image-container {
+  justify-content: center;
+  margin: 0rem;
+}

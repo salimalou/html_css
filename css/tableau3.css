@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  background-color: rgb(140, 182, 140);
+}
+
+.conteneur {
+  width: 50%;
+  background-color: white;
+  margin: auto;
+  border: 1px solid;
+}
+
+header {
+  height: 258px;
+  background: url(../img/apple.jpg) left no-repeat;
+}
+
+.image {
+  position: relative;
+  bottom: -12px;
+  left: 538px;
+}
+
+nav {
+  background-color: rgb(126, 223, 126);
+  height: 22px;
+}
+
+ul {
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  float: left;
+  padding: 0em 2em;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(126, 223, 126);
+  text-decoration: underline;
+}
+
+h2 {
+  color: rgb(126, 223, 126);
+  text-decoration: underline;
+}
+
+.premier {
+  margin: auto;
+  padding: 44px;
+  background: url(../img/bg_page.gif) left no-repeat;
+  position: relative;
+  left: 20px;
+  padding: 33px 108px;
+}
