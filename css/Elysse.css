@@ -1,0 +1,25 @@
+.arrondi_625rem {
+  border-radius: 0.625rem;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.sec2_acceuill img {
+  display: block;
+  margin: auto;
+  width: 80px;
+  height: 80px;
+}
+
+.sec2_acceuill h4 {
+  text-align: center;
+}
+
+.sec2_acceuill p {
+  font-size: 0.8125rem;
+  text-align: center;
+}
