@@ -1,0 +1,15 @@
+/* ------ Importer des polices ------ */
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,500,500i,700");
+
+/* ------ 1. Les balises ------ */
+body {
+  font-family: "Cormorant Garamond", serif;
+  background-color: #f6f6f7;
+  width: 80%;
+  margin: 0 auto;
+}
+/* ------ header ------ */
+header {
+  width: 50%;
+  margin: 10% auto 5%; /*haut - droit & gauche - bas*/
+}

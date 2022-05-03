@@ -1,0 +1,137 @@
+body {
+  width: 90%;
+  margin: auto;
+}
+
+.premier {
+  display: flex;
+}
+
+header {
+  background: linear-gradient(to top, rgb(45, 253, 149), rgb(34, 193, 195));
+  height: 58px;
+  border-radius: 2px;
+}
+
+header p {
+  color: white;
+}
+
+header h2 {
+  color: white;
+}
+
+header ul {
+  display: flex;
+  justify-content: end;
+}
+
+header img {
+  height: 52px;
+}
+
+nav li {
+  display: inline-block;
+  justify-content: flex-end;
+}
+
+#dessous {
+  background: linear-gradient(to top, rgb(34, 193, 195), rgb(34, 193, 195));
+  border: 2px solid white;
+  height: 40px;
+  color: white;
+  line-height: 35px;
+}
+
+.conteneur {
+  width: 65%;
+  margin: auto;
+  margin-top: 36px;
+}
+
+.japon {
+  background: linear-gradient(to top, rgb(191, 129, 148), rgb(86, 166, 241));
+  border-radius: 35px;
+  display: flex;
+  margin: 17px;
+  padding: 30px;
+}
+
+.japon img {
+  height: 268px;
+  border-radius: 50%;
+  width: 25%;
+}
+
+.japon p {
+  color: white;
+  display: flex;
+  align-items: flex-end;
+  text-align: inherit;
+}
+
+.japon h2 {
+  display: flex;
+  color: white;
+  position: relative;
+  left: 58px;
+}
+
+.thailande {
+  background: linear-gradient(to top, rgb(45, 253, 149), rgb(70, 134, 195));
+  border-radius: 35px;
+  display: flex;
+  margin: 17px;
+  padding: 17px;
+}
+
+.thailande img {
+  height: 268px;
+  border-radius: 50%;
+  width: 27%;
+  float: right;
+}
+
+.thailande h2 {
+  color: white;
+}
+.thailande p {
+  color: white;
+  display: flex;
+  align-items: self-end;
+  text-align: center;
+}
+
+.inde {
+  background: linear-gradient(to top, rgb(226, 132, 23), rgb(92, 144, 181));
+  border-radius: 35px;
+  display: flex;
+  padding: 30px;
+  margin: 17px;
+}
+
+.inde img {
+  height: 278px;
+  border-radius: 50%;
+  width: 25%;
+}
+
+.inde h2 {
+  color: white;
+}
+
+.inde p {
+  color: white;
+  text-align: end;
+  display: flex;
+  margin: auto;
+}
+
+footer {
+  background: linear-gradient(to top, rgb(45, 253, 149), rgb(34, 193, 195));
+  height: 70px;
+  line-height: 74px;
+  padding-left: 19px;
+  border-radius: 7px;
+  color: white;
+}

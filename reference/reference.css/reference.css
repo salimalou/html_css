@@ -1,0 +1,22 @@
+/* Importer des police */
+
+@import url();
+
+* {
+  box-sizing: border-box;
+}
+
+/* couleur dégradée */
+.couleur_degrade {
+  background: linear-gradient();
+}
+
+.salima {
+  border-radius: 50%;
+  font-weight: bolder;
+  /* pour mettre en gras */
+  vertical-align: bottom;
+  /* La propriété vertical-align peut être utilisée dans deux contextes :
+Afin d'aligner verticalement la boîte d'un élément en ligne à l'intérieur de la boîte en ligne de son conteneur (par exemple pour aligner verticalement une image (<img> sur une ligne de texte)
+ou pour aligner verticalement le contenu d'une cellule dans un tableau */
+}
