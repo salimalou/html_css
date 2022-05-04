@@ -47,24 +47,73 @@
 // document.write(calcule + "&nbsp,&nbsp" + calcule + "</br>");
 // document.write(calcule + "<br>");
 
-var nb1 = 10;
-var nb2 = 5;
-var resultat = nb1 + nb2;
-document.write(resultat + "<br>");
-console.log(resultat);
+// var nb1 = 10;
+// var nb2 = 5;
+// var resultat = nb1 + nb2;
+// document.write(resultat + "<br>");
+// console.log(resultat);
 
-var resultatSoustraction = nb1 - nb2;
-document.write(resultatSoustraction + "<br>");
-console.log(resultatSoustraction);
+// var resultatSoustraction = nb1 - nb2;
+// document.write(resultatSoustraction + "<br>");
+// console.log(resultatSoustraction);
 
-var resultatMultiplication = nb1 * nb2;
-document.write(resultatMultiplication + "<br>");
-console.log(resultatMultiplication);
+// var resultatMultiplication = nb1 * nb2;
+// document.write(resultatMultiplication + "<br>");
+// console.log(resultatMultiplication);
 
-var resultatDivison = nb1 / nb2;
-document.write(resultatDivison + "<br>");
-console.log(resultatDivison);
+// var resultatDivison = nb1 / nb2;
+// document.write(resultatDivison + "<br>");
+// console.log(resultatDivison);
 
-var resultatModulo = nb1 % nb2;
-document.write(resultatModulo + "<br>");
-console.log(resultatModulo);
+// var resultatModulo = nb1 % nb2;
+// document.write(resultatModulo + "<br>");
+// console.log(resultatModulo);
+
+// var teste ;
+
+// var teste2 ="bonjour";
+// console.log(typeof teste2);
+
+// var chiffre = 10;
+// var nombre=  5;
+// var resultat = chiffre + nombre;
+
+// var salima = prompt(louisor);
+// if (salima == 10) {
+//   document.write(salima);
+// }
+
+// var numero1 = 10;
+// var resultat = numero1 + numero1;
+// console.log(resultat);
+
+// var string = "saisUnePhrases";
+// var chiffre = 100;
+// var resultat = string + chiffre;
+// console.log(resultat);
+
+// var nombre;
+// nombre = prompt("Entrez un nombre entiers");
+// // document.write(nombre);
+
+// if (nombre > 10) {
+//   document.write("salima");
+// }
+
+// var monPrenom = "salima";
+// monPrenom = prompt("entrez une chaine de caractere");
+// if (monPrenom == "salima") {
+//   document.write(monPrenom);
+// } else {
+//   document.write("cette valeur n'est pas mon prénom");
+// }
+
+// var unChiffre = prompt("entrez un chiffre");
+// var result = unChiffre % 5;
+// if (result == 0) {
+//   document.write();
+// } else {
+//   document.write("cette valeur");
+// }
+
+Number(prompt("entrez nb1:"));
