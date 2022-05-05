@@ -116,4 +116,108 @@
 //   document.write("cette valeur");
 // }
 
-Number(prompt("entrez nb1:"));
+// var nombre = ;
+// Number(prompt("entrez nb1:"));
+// document.write();
+
+// var prenom = prompt("entrez votre prénom :");
+// alert("bonjour," + prenom);
+
+// var nombre = prompt("entrez votre valeur :");
+// nombre = parseInt(nombre);
+// if (nombre === 5) {
+//   document.write(nombre);
+// }
+
+// var nombre = prompt(":");
+// var nombreFloat = parseFloat(nombre);
+// var result = nombreFloat % 13;
+// if (result == 0) {
+//   document.write(nombre + "est un multiple de 13");
+// } else {
+//   document.write(
+//     nombre +
+//       "n'est pas un multiple de 13 et le résultat du modulo est : " +
+//       result
+//   );
+// }
+
+// var nombre = prompt("");
+// var annalyseResultat = parseInt(nombre);
+// document.write(annalyseResultat);
+// if (typeof annalyseResultat === "number") {
+//   document.write("la valeur est un nombre");
+// } else {
+//   document.write("la valeur n'est pas un nombre");
+// }
+
+// var saisie = prompt("Entrez votre saisie: ");
+// var resultat = parseFloat(saisie);
+// if (isNaN(resultat)) {
+//   document.write(
+//     saisie + "est une chaine de caractère peut-etre composée de chiffres"
+//   );
+// } else {
+//   var finalResalt = resultat % 7;
+//   if (finalResalt == 0) {
+//     document.write(saisie + "est un multiple de 7");
+//   } else {
+//     document.write(
+//       saisie +
+//         "n'est pas un multiple de 7 et le résultat du modulo est : " +
+//         finalResalt
+//     );
+//   }
+// }
+
+// var saisie = prompt(saisie * 5);
+// resultat = saisie * 5;
+// document.write(resultat + "<br>");
+// var module = resultat % 3;
+// document.write(module);
+
+// var c = prompt(c * 1.8 + 32);
+// var f = c * 1.8 + 32;
+// document.write(f);
+
+// var nb1 = 25;
+// var nb2 = "arbre";
+// var nb3;
+
+// var nb3 = nb1;
+// var nb1 = nb2;
+// var nb2 = nb3;
+
+// // nb3 25
+// // nb1 "arbre"
+// // nb2 25
+
+// document.write(nb1 + "<br>" + nb2);
+
+// PERMUTATION
+
+// var nombre1 = example;
+// var nombre2 = "example";
+
+// var nombre3;
+
+// nombre3 = nombre1;
+// nombre1 = nombre2;
+// nombre2 = nombre3;
+
+// document.write(nombre1 + "<br>" + nombre2);
+// var tva = example;
+// var prixHT = prompt ("Question: prix HT");
+// var prixTTC = prixHT * tva;
+// document.write(prixTTC);
+
+// for (var i = 3; i <= 15; i += 2) {
+//   document.write("<p>Instruction exécutée :" + i + "</p>");
+// }
+
+var numerique = prompt();
+var int_var = parseInt(numerique);
+
+for (var i = 1; i <= int_var + 10; i += 2) {
+  document.write("La valeur de i est " + i + "<br>");
+}
