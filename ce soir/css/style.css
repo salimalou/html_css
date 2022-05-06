@@ -1,0 +1,93 @@
+.containeur {
+  width: 50%;
+  margin: auto;
+}
+
+header {
+  background-image: url("../img/images.jfif");
+  width: 100%;
+  /* height: 308px; */
+  /* @import url("https://fonts.googleapis.com/css2? famille=Caveat+Brush&display=swap'); */
+  font-family: "Caveat Brush";
+}
+
+.enhaut {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.triangle-right {
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-left: 50px solid rgb(228, 44, 44);
+  border-bottom: 25px solid transparent;
+}
+
+#logo {
+  width: 15%;
+  margin: auto;
+  padding: 41px;
+}
+
+nav ul {
+  display: flex;
+  font-size: 13px;
+  list-style-type: none;
+  float: right;
+}
+
+.parent1 {
+  display: flex;
+}
+
+.droite1 img {
+  width: 596px;
+}
+
+.parent2 {
+  display: flex;
+  width: 100%;
+}
+
+.parent3 {
+  display: flex;
+}
+
+.droite2 {
+  width: 55%;
+  text-align: center;
+}
+
+.droite2 img {
+  width: 27%;
+}
+
+.gauche2 img {
+  width: 145%;
+}
+
+.gauche3 {
+  width: 60%;
+}
+
+.gauche3 img {
+  width: 150px;
+}
+
+.droite3 img {
+  width: 103%;
+}
+
+.dernier img {
+  width: 102%;
+}
+
+h5 {
+  color: red;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
