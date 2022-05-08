@@ -260,31 +260,75 @@
 // }
 // }
 
-var jour = prompt("Quel jour sommes-nous ?");
-switch (jour) {
-  case "lundi":
-    console.log("Demain on et mardi");
+// var jour = prompt("Quel jour sommes-nous ?");
+// switch (jour) {
+//   case "lundi":
+//     console.log("Demain on et mardi");
+//     break;
+//   case "mardi":
+//     console.log("Demain on et mercredi");
+//     break;
+//   case "mercredi":
+//     console.log("Demain on et jeudi");
+//     break;
+//   case "jeudi":
+//     console.log("Demain on et vendredi");
+//     break;
+//   case "vendredi":
+//     console.log("Demain on et samedi");
+//     break;
+//   case "samedi":
+//     console.log("Demain on et dimanche");
+//     break;
+//   case "dimanche":
+//     console.log("Demain on et lundi");
+//     break;
+//   default:
+//     console.log(
+//       "Désolé, vérifiez l'orthographe et veuillez écrire sans majuscules."
+//     );
+// }
+
+var numero = prompt("choisisez un nombre de mois")
+switch (numero) {
+  case "1":
+    document.write("Janvier, il y a 30 jours");
     break;
-  case "mardi":
-    console.log("Demain on et mercredi");
+  case "2":
+    document.write("Fevrier, il y a 28 jours");
     break;
-  case "mercredi":
-    console.log("Demain on et jeudi");
+  case "3":
+    document.write("Mars, il y a 30 jours");
     break;
-  case "jeudi":
-    console.log("Demain on et vendredi");
+  case "4":
+    document.write("Avril, il y a 30 jours ");
     break;
-  case "vendredi":
-    console.log("Demain on et samedi");
+  case "5":
+    document.write("Mai, il y a 31 jours");
     break;
-  case "samedi":
-    console.log("Demain on et dimanche");
+  case "6":
+    document.write("Juin, il y a 30 jours");
     break;
-  case "dimanche":
-    console.log("Demain on et lundi");
+  case "7":
+    document.write("Juillet, il y a 30 jours");
+    break;
+    case "8":
+      document.write("Aout, il y a 30 jours");
+    break;
+    case "9":
+      document.write("Septembre, il y a 30 jours");
+    break;
+    case "10":
+      document.write("Octobre, il y a 30 jours ");
+    break;
+    case "11":
+      document.write("Novembre, il y a 30 jours");
+    break;
+    case "12":
+      document.write("Decembre, il y a 30 jours");
     break;
   default:
-    console.log(
+    document.write(
       "Désolé, vérifiez l'orthographe et veuillez écrire sans majuscules."
     );
 }

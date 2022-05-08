@@ -37,12 +37,18 @@ nav ul {
   float: right;
 }
 
+section{
+  width: 100%;
+}
+
+
 .parent1 {
   display: flex;
+  width: 100%;
 }
 
 .droite1 img {
-  width: 596px;
+  width: 451px;
 }
 
 .parent2 {
@@ -55,7 +61,7 @@ nav ul {
 }
 
 .droite2 {
-  width: 55%;
+  width: 100%;
   text-align: center;
 }
 
@@ -63,8 +69,15 @@ nav ul {
   width: 27%;
 }
 
+.gauche{
+  width: 100%;
+}
+.gauche2{
+  width: 100%;
+}
+
 .gauche2 img {
-  width: 145%;
+  width: 125%;
 }
 
 .gauche3 {
@@ -90,4 +103,8 @@ h5 {
 
 h2 {
   text-align: center;
+}
+
+p{
+  font-size: 13px;
 }

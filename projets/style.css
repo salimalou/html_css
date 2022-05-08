@@ -5,6 +5,11 @@ body {
 
 .premier {
   display: flex;
+  justify-content: space-between;
+}
+
+.lo{
+  display: flex;
 }
 
 header {
@@ -23,14 +28,14 @@ header h2 {
 
 header ul {
   display: flex;
-  justify-content: end;
+  justify-content:start;
 }
 
 header img {
   height: 52px;
 }
 
-nav li {
+li {
   display: inline-block;
   justify-content: flex-end;
 }
