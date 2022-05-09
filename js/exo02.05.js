@@ -289,46 +289,71 @@
 //     );
 // }
 
-var numero = prompt("choisisez un nombre de mois")
-switch (numero) {
-  case "1":
-    document.write("Janvier, il y a 30 jours");
-    break;
-  case "2":
-    document.write("Fevrier, il y a 28 jours");
-    break;
-  case "3":
-    document.write("Mars, il y a 30 jours");
-    break;
-  case "4":
-    document.write("Avril, il y a 30 jours ");
-    break;
-  case "5":
-    document.write("Mai, il y a 31 jours");
-    break;
-  case "6":
-    document.write("Juin, il y a 30 jours");
-    break;
-  case "7":
-    document.write("Juillet, il y a 30 jours");
-    break;
-    case "8":
-      document.write("Aout, il y a 30 jours");
-    break;
-    case "9":
-      document.write("Septembre, il y a 30 jours");
-    break;
-    case "10":
-      document.write("Octobre, il y a 30 jours ");
-    break;
-    case "11":
-      document.write("Novembre, il y a 30 jours");
-    break;
-    case "12":
-      document.write("Decembre, il y a 30 jours");
-    break;
-  default:
-    document.write(
-      "Désolé, vérifiez l'orthographe et veuillez écrire sans majuscules."
-    );
+// var numero = prompt("choisisez un nombre de mois")
+// switch (numero) {
+//   case "1":
+//     document.write("Janvier, il y a 30 jours");
+//     break;
+//   case "2":
+//     document.write("Fevrier, il y a 28 jours");
+//     break;
+//   case "3":
+//     document.write("Mars, il y a 30 jours");
+//     break;
+//   case "4":
+//     document.write("Avril, il y a 30 jours ");
+//     break;
+//   case "5":
+//     document.write("Mai, il y a 31 jours");
+//     break;
+//   case "6":
+//     document.write("Juin, il y a 30 jours");
+//     break;
+//   case "7":
+//     document.write("Juillet, il y a 30 jours");
+//     break;
+//     case "8":
+//       document.write("Aout, il y a 30 jours");
+//     break;
+//     case "9":
+//       document.write("Septembre, il y a 30 jours");
+//     break;
+//     case "10":
+//       document.write("Octobre, il y a 30 jours ");
+//     break;
+//     case "11":
+//       document.write("Novembre, il y a 30 jours");
+//     break;
+//     case "12":
+//       document.write("Decembre, il y a 30 jours");
+//     break;
+//   default:
+//     document.write(
+//       "Désolé, vérifiez l'orthographe et veuillez écrire sans majuscules."
+//     );
+// }
+
+// var nb1 = Number(prompt("Entrez nb1"));
+// var nb2 = Number(prompt("Entrez nb2"));
+// var nb3 = Number(prompt("Entrez nb2"));
+
+// if (nb1 > nb2) {
+//   nb1 = nb3 *= 2;
+// } else if (nb3 > nb1) {
+//   nb1++;
+//   if (nb1 == nb3) {
+//     nb1 = nb1 + nb3 * 3;
+//   }
+// } else {
+//   var perdu = prompt("je suis perdu :(");
+// }
+// document.write(nb1 + nb2 + nb3);
+
+var nb4 = Number(prompt("Entrez nb4"));
+if (nb4 < 20) {
+  nb4 += 50;
+} else {
+  nb4 *= 3;
 }
+
+document.write(nb4);
