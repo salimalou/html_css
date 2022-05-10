@@ -1,2 +1,4 @@
-var nom;
-nom = louisor;
+// attribut = length
+// // fonction = .log
+// Object = console
+// items = ['']
