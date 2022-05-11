@@ -349,11 +349,43 @@
 // }
 // document.write(nb1 + nb2 + nb3);
 
-var nb4 = Number(prompt("Entrez nb4"));
-if (nb4 < 20) {
-  nb4 += 50;
-} else {
-  nb4 *= 3;
-}
+// var nb4 = Number(prompt("Entrez nb4"));
+// if (nb4 < 20) {
+//   nb4 += 50;
+// } else {
+//   nb4 *= 3;
+// }
 
-document.write(nb4);
+// document.write(nb4);
+
+var tableauInformation = [
+  "salima",
+  "louisor",
+  "salima-you@live.fr",
+  19,
+  "11/05/2022",
+];
+console.log(tableauInformation);
+// prenom, nom, adresse mail ,age, date
+
+// 1
+var date = tableauInformation.pop();
+tableauInformation.unshift(date);
+console.log(tableauInformation);
+// 2
+var nom_mail = tableauInformation.splice(2, 2, "94290", "mdp");
+console.log(nom_mail);
+console.log(tableauInformation);
+
+// 3
+tableauInformation.push(nom_mail[1]);
+console.log(tableauInformation);
+
+//  4
+tableauInformation.splice(1, 0, nom_mail[0]);
+console.log(tableauInformation);
+
+// 5
+for (var i = 0; i < tableauInformation.length; i++) {
+  document.write(tableauInformation[i] + "<br>");
+}

@@ -39,6 +39,7 @@ console.log("contenu du dernier élément du tableauChiffres : ", last);
 // console.log(tableauFruits);
 
 // // afiiche c qu'ont a supprimé
+
 // var resultatDeLaFonctionpop = tableauFruits.pop();
 // console.log(resultatDeLaFonctionpop);
 

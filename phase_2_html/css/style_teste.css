@@ -894,6 +894,42 @@ li .fas:hover {
 }
 
 /**************************FIN LISTE************************/
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
 .infoBulle {
   height: 250px;
   width: 500px;
@@ -918,214 +954,26 @@ li .fas:hover {
   padding: 5px 15px;
 }
 
-.infoBulle a:hover {
-  text-shadow: 0 1px 2px black;
-  background: rgba(0, 0, 0, 0.4);
-  /* .4 = 0.4  */
-  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
-  color: #fff;
+.infoBulle {
+  height: 250px;
+  width: 500px;
+  margin: auto;
+  padding-top: 15px;
+  background: #444;
+  box-shadow: 0 0 50px #222 inset;
+  /* inset place l'ombre à l'intérieur */
 }
 
-.infoBulle a span {
-  position: absolute;
-  padding: 15px;
-  margin-top: 23px;
-  margin-left: -35px;
-  background: rgba(0, 0, 0, 0.9);
-  opacity: 0;
-  color: #09c;
-  transform: scale(0) rotateZ(-12deg);
-  /* rotation sur l'axe vertical https://developer.mozilla.org/fr/docs/Web/CSS/transform-function/rotateZ 
-  scale() => échelle/ taille du zoom */
-  transition: 0.25s;
-  border-radius: 3px;
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
-}
-
-.infoBulle a:hover span {
-  opacity: 1;
-  transform: scale(1) rotateZ(0);
-}
-
-.infoBulle a span:before {
-  /* :before => on injecte qq chose avant*/
-  content: "";
-  position: absolute;
-  top: -6px;
-  left: 10px;
-  border-bottom: 6px solid rgba(0, 0, 0, 0.9);
-  border-left: 6px solid transparent;
-  border-right: 6px solid transparent;
-}
-
-/* * * Images en gris (grayscale) et flouté (blur) */
-.imgEffets {
-  width: 302px;
-  height: 320px;
-  margin: 70px auto;
-}
-
-.imgEffets li {
-  list-style: none;
-  float: left;
-  /* EMMET => fl + tab */
-  width: 141px;
-  /* EMMET => w141 + tab */
-  height: 150px;
-  /* EMMET =>  h150 + tab */
-  margin: 5px;
-  /* EMMET => m5 + tab */
-}
-
-.imgEffets img {
-  position: absolute;
-  /* EMMET => psa + tab */
-  z-index: 1;
-  height: 150px;
-  box-shadow: 0 0 3px black;
-  transition: 0.5s cubic-bezier(0, 3, 0.4, 1);
-  /* cubic-bezier commence par 0 et se termine par 1 puis entre nous mettrons nos valeurs*/
-  /*http://cubic-bezier.com*/
-}
-
-.imgEffets li:hover img {
-  z-index: 2;
-  transform: scale(1.5);
-  box-shadow: 0 0 10px black;
-}
-
-.imgEffets:hover li:not(:hover) img {
-  filter: grayscale(1) blur(5px);
-}
-
-/*
-  * Rotation du menu
-  */
-
-#menuRotate {
-  height: 360px;
-  width: 576px;
-  margin: 100px auto;
-  background: #627878;
-  position: relative;
-  overflow: hidden;
-  border: 2px solid white;
-}
-
-#menuRotate .masque {
-  position: absolute;
-  z-index: 50;
-  width: 585px;
-  height: 135px;
-  top: 0;
-  left: 0;
-  background: linear-gradient(#324040, #627878);
-}
-
-#menuRotate .ombre {
-  position: absolute;
-  z-index: 40;
-  width: 300px;
-  height: 6px;
-  box-shadow: 0px 100px 3px black;
-  border-radius: 75px 75px 75px 75px / 3px 3px 3px 3px;
-  /* rayons horizontaux / verticaux */
-  top: 30px;
-  left: 142px;
-}
-
-#menuRotate dl {
-  position: relative;
-  top: 0;
-  left: 50%;
-  margin-left: -75px;
-  width: 150px;
-  height: 155px;
-  color: #324040;
+.infoBulle p {
   text-align: center;
-  background: #04b3d2;
-  border-radius: 4px;
-  box-shadow: 0 0 6px rgba(0, 0, 0, 0.7);
-  transform-origin: 50% 120px;
-  animation: bounceOut 0.7s ease-in-out;
+  /* EMMET => tac + tab */
+  padding-top: 30px;
 }
 
-#menuRotate dt {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 23px;
-  padding-top: 5px;
-}
-
-#menuRotate dd {
-  transform: rotate(180deg);
-}
-
-#menuRotate dd a {
-  display: block;
-  height: 24px;
-  padding: 3px 0;
-  color: #324040;
+.infoBulle a {
+  color: #ccc;
+  text-shadow: 0 -2px 0 black;
   text-decoration: none;
-}
-
-#menuRotate dd a:hover {
-  background: rgba(255, 255, 255, 0.1);
-}
-
-#menuRotate dl:hover {
-  transform: rotate(-180deg);
-  animation: bounceIn 0.7s ease-in-out;
-}
-
-/* Les keyframes représentent le déroulement de votre animation. Les valeurs en pourcentage représentent un moment temporel précis au cours de la durée de votre animation. Ainsi, 10% représentera la 6ème seconde d'une animation durant une minute. les keyframes 0% et 100% sont obligatoires et leur omission peut empêcher le fonctionnement de votre animation sur certains navigateurs */
-
-@keyframes bounceIn {
-  from {
-    transform: rotate(0deg);
-  }
-  75% {
-    transform: rotate(-200deg);
-  }
-  90% {
-    transform: rotate(-175deg);
-  }
-  to {
-    transform: rotate(-180deg);
-  }
-}
-
-@keyframes bounceOut {
-  from {
-    transform: rotate(0deg);
-  }
-  0% {
-    transform: rotate(-180deg);
-  }
-  10% {
-    transform: rotate(-165deg);
-  }
-  to {
-    transform: rotate(-360deg);
-  }
-}
-
-/***************FIN PAGE ANIMATION***************/
-
-.clear {
-  clear: both;
-}
-
-.image2 {
-  -ms-transform: rotate(-20deg);
-  transform: rotate(-20deg);
-  transition: 2s;
-  height: 100%;
-}
-
-.image2 :hover {
-  -ms-transform: rotate(20deg);
-  transform: rotate(20deg);
-  transition: 2s;
+  border-radius: 3px;
+  padding: 5px 15px;
 }
