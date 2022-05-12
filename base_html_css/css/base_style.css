@@ -1,0 +1,72 @@
+.conteneur {
+  width: 100%;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.second {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.img1:hover {
+  box-shadow: 10px 5px 5px gray;
+  filter: opacity(50%);
+  transform: skew(10deg, 1deg);
+  transition: 2s;
+}
+
+.img2 :hover {
+  box-shadow: 60px -16px black;
+  filter: brightness(70%);
+  transform: scale(1, 0.6);
+  transition: 5s;
+}
+
+.img3 :hover {
+  box-shadow: 3px 3px black, -1em 0 0.4em black;
+  filter: blur(2px);
+  transform: rotate(0.8turn);
+  transition: 8s;
+}
+
+.img4 :hover {
+  box-shadow: 1px 1px 12px #555;
+  filter: saturate(20%);
+  transform: scale(0.5) translate(-100%, 100%);
+  transition: 10s;
+}
+
+.img5 {
+}
+
+.img6 {
+}
+
+.img7 {
+}
+
+.img8 {
+}
+
+@media screen and (max-width: 720px) {
+  section {
+    display: flex;
+    justify-content: center;
+  }
+
+  .second {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .conteneur {
+    width: 100%;
+  }
+}

@@ -289,16 +289,16 @@
 //     );
 // }
 
-// var numero = prompt("choisisez un nombre de mois")
+// var numero = prompt("choisisez un nombre. (mois)");
 // switch (numero) {
 //   case "1":
-//     document.write("Janvier, il y a 30 jours");
+//     document.write("Janvier, il y a 31 jours");
 //     break;
 //   case "2":
 //     document.write("Fevrier, il y a 28 jours");
 //     break;
 //   case "3":
-//     document.write("Mars, il y a 30 jours");
+//     document.write("Mars, il y a 31 jours");
 //     break;
 //   case "4":
 //     document.write("Avril, il y a 30 jours ");
@@ -310,27 +310,52 @@
 //     document.write("Juin, il y a 30 jours");
 //     break;
 //   case "7":
-//     document.write("Juillet, il y a 30 jours");
+//     document.write("Juillet, il y a 31 jours");
 //     break;
-//     case "8":
-//       document.write("Aout, il y a 30 jours");
+//   case "8":
+//     document.write("Aout, il y a 31 jours");
 //     break;
-//     case "9":
-//       document.write("Septembre, il y a 30 jours");
+//   case "9":
+//     document.write("Septembre, il y a 30 jours");
 //     break;
-//     case "10":
-//       document.write("Octobre, il y a 30 jours ");
+//   case "10":
+//     document.write("Octobre, il y a 31 jours ");
 //     break;
-//     case "11":
-//       document.write("Novembre, il y a 30 jours");
+//   case "11":
+//     document.write("Novembre, il y a 30 jours");
 //     break;
-//     case "12":
-//       document.write("Decembre, il y a 30 jours");
+//   case "12":
+//     document.write("Decembre, il y a 31 jours");
 //     break;
 //   default:
-//     document.write(
-//       "Désolé, vérifiez l'orthographe et veuillez écrire sans majuscules."
-//     );
+//     document.write("Désolé, il y a pas plus de mois que 12.");
+// }
+
+// // 2eme facon
+
+// var mois = parseInt(
+//   prompt("Quel mois choisissez-vous", "<saisir un chiffre entre 1 et 12>")
+// );
+
+// if (mois === 2) {
+//   // si on a choisi février => chiffre 2
+//   document.write("Le mois numéro " + mois + " fait 28 jours.");
+// } else if (mois === 4 || mois === 6 || mois === 9 || mois === 11) {
+//   // si on a choisi un mois qui fait 30 jours
+//   document.write("Le mois numéro " + mois + " fait 30 jours.");
+// } else if (
+//   mois === 1 ||
+//   mois === 3 ||
+//   mois === 5 ||
+//   mois === 7 ||
+//   mois === 8 ||
+//   mois === 10 ||
+//   mois === 12
+// ) {
+//   // si on a choisi un mois qui fait 31 jours
+//   document.write("Le mois numéro " + mois + " fait 31 jours.");
+// } else {
+//   document.write("Votre choix " + mois + " n'est pas dans le calendrier.");
 // }
 
 // var nb1 = Number(prompt("Entrez nb1"));
@@ -358,34 +383,83 @@
 
 // document.write(nb4);
 
-var tableauInformation = [
-  "salima",
-  "louisor",
-  "salima-you@live.fr",
-  19,
-  "11/05/2022",
-];
-console.log(tableauInformation);
-// prenom, nom, adresse mail ,age, date
+// var tableauInformation = [
+//   "salima",
+//   "louisor",
+//   "salima-you@live.fr",
+//   19,
+//   "11/05/2022",
+// ];
+// console.log(tableauInformation);
+// // prenom, nom, adresse mail ,age, date
 
-// 1
-var date = tableauInformation.pop();
-tableauInformation.unshift(date);
-console.log(tableauInformation);
-// 2
-var nom_mail = tableauInformation.splice(2, 2, "94290", "mdp");
-console.log(nom_mail);
-console.log(tableauInformation);
+// // 1
+// var date = tableauInformation.pop();
+// tableauInformation.unshift(date);
+// console.log(tableauInformation);
+// // 2
+// var nom_mail = tableauInformation.splice(2, 2, "94290", "mdp");
+// console.log(nom_mail);
+// console.log(tableauInformation);
 
-// 3
-tableauInformation.push(nom_mail[1]);
-console.log(tableauInformation);
+// // 3
+// tableauInformation.push(nom_mail[1]);
+// console.log(tableauInformation);
 
-//  4
-tableauInformation.splice(1, 0, nom_mail[0]);
-console.log(tableauInformation);
+// //  4
+// tableauInformation.splice(1, 0, nom_mail[0]);
+// console.log(tableauInformation);
 
-// 5
-for (var i = 0; i < tableauInformation.length; i++) {
-  document.write(tableauInformation[i] + "<br>");
-}
+// // 5
+// for (var i = 0; i < tableauInformation.length; i++) {
+//   document.write(tableauInformation[i] + "<br>");
+// }
+
+// HEURES SUIVANTES
+
+// var heures = Number(prompt("l'heurs ?"));
+// var minutes = Number(prompt("Minutes ?"));
+// var secondes = Number(prompt("secondes ?"));
+
+// // on teste les cas d'erreur
+// if (
+//   heures >= 0 &&
+//   heures <= 23 &&
+//   minutes >= 0 &&
+//   minutes <= 59 &&
+//   secondes >= 0 &&
+//   secondes <= 59
+// ) {
+//   // &&
+//   secondes++; // on incrémente les secondes
+//   if (secondes === 60) {
+//     // ===
+//     // on met les secondes à 0 et passe à la minute suivante
+//     secondes = 0;
+//     minutes++;
+//     if (minutes === 60) {
+//       // ===
+//       // on met les minutes à 0 et passe à l'heure suivante
+//       minutes = 0;
+//       heures++;
+//       if (heures === 24) {
+//         // ===
+//         // l'heure suivante est minuit
+//         heures = 0;
+//       }
+//     }
+//   }
+//   // affichage de l'heure
+//   document.write(
+//     "<h3>Dans une seconde il sera " +
+//       heures +
+//       " h " +
+//       minutes +
+//       " m " +
+//       secondes +
+//       " s</h3>"
+//   );
+// } else {
+//   // heure incorrecte
+//   document.write("Heure incorrecte !");
+// }
