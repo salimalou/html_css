@@ -1,0 +1,47 @@
+<div class="contenu">
+        <header>
+          example
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="">example</a>
+                </li>
+                <li>
+                    <a href="">example</a>
+                </li>
+                <li>
+                    <a href="">example</a>
+                </li>
+                <li>
+                    <a href="">example</a>
+                </li>
+                <li>
+                    <a href="">example</a>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <div>example</div>
+                <div>example</div>
+            </section>
+            <section>
+                <div>example</div>
+                <div>example</div>
+            </section>
+            <section>
+                <div>example</div>
+                <div>example</div>
+            </section>
+            <section>
+                <div>example</div>
+                <div>example</div>
+            </section>
+            <section>
+                <div>example</div>
+                <div>example</div>
+            </section>
+        </main>
+        <footer></footer>
+    </div>

@@ -1,0 +1,241 @@
+.contenu {
+  width: 60%;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 132px;
+}
+
+.premier {
+  display: flex;
+}
+
+.premier img {
+  height: 54px;
+  width: 49px;
+}
+
+.entre p {
+  color: plum;
+}
+
+.entre {
+  display: inline-block;
+}
+
+.premier img:hover {
+  transform: rotate(0.8turn);
+  transition: 8s;
+  width: 30px;
+}
+
+.deuxieme {
+  display: flex;
+  flex-direction: column;
+}
+
+.prems {
+  display: flex;
+}
+
+.deuxieme h1 {
+  color: lightblue;
+}
+
+.deuxieme .blue {
+  width: 170px;
+  height: 23px;
+  color: lightblue;
+  position: relative;
+  top: -59px;
+  right: -48px;
+}
+
+.deuxieme img {
+  position: relative;
+  bottom: 20px;
+}
+
+.gris {
+  color: gray;
+  display: flex;
+  margin: -37px;
+}
+
+.dernier {
+  display: inline-block;
+}
+
+.haut {
+  background-color: lightblue;
+  color: white;
+  text-align: center;
+  margin: 1px;
+}
+
+.bas {
+  background-color: lightblue;
+  color: white;
+}
+
+nav {
+  display: flex;
+  width: 111%;
+}
+
+nav ul {
+  list-style: none;
+  line-height: 16px;
+  color: white;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav :hover {
+  background-color: palevioletred;
+  width: 15%;
+}
+
+.rose {
+  background-color: palevioletred;
+  width: 15%;
+}
+
+.bleu1 {
+  background-color: lightblue;
+  width: 15%;
+  color: white;
+}
+
+.bleu2 {
+  background-color: lightblue;
+  width: 15%;
+  color: white;
+}
+
+.bleu3 {
+  background-color: lightblue;
+  width: 15%;
+  color: white;
+}
+
+.bleu4 {
+  background-color: lightblue;
+  width: 15%;
+  color: white;
+}
+
+.bleu5 {
+  background-color: lightblue;
+  width: 15%;
+  color: white;
+}
+
+.milieu img {
+  width: 1130px;
+}
+
+.g {
+  width: 75%;
+}
+
+.m {
+  width: 200%;
+}
+
+.d {
+  width: 83%;
+}
+
+.bloc {
+  display: flex;
+}
+
+.centre {
+  width: 488px;
+  padding-left: 10px;
+}
+
+.main {
+  width: 100%;
+}
+
+.voiture {
+  display: flex;
+}
+
+.voiture img {
+  width: 54px;
+  height: 53px;
+}
+
+.fleche {
+  display: flex;
+}
+
+h4 {
+  color: lightblue;
+}
+
+.one {
+  width: 2px;
+  height: 249px;
+}
+
+.on {
+  background-color: gray;
+  width: 358px;
+  height: 42px;
+}
+
+.two {
+  display: flex;
+  width: 358px;
+  height: 42px;
+  background-color: gray;
+}
+
+.lol {
+  display: flex;
+}
+.tous {
+  display: flex;
+  border: solid gray;
+  margin: 2px;
+  text-align: center;
+}
+
+.mil {
+  display: flex;
+  border: solid gray;
+  margin: 2px;
+  text-align: center;
+}
+
+.droi {
+  width: 100%;
+  border-radius: 16px;
+  border: solid gray;
+  display: flex;
+}
+
+.lol img {
+  height: 168px;
+}
+
+footer {
+  display: flex;
+  background-color: lightblue;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+  line-height: 16px;
+}
