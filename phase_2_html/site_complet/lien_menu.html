@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Page d'accueil</title>
+        <link rel="stylesheet" href="css/style.css">
+        <!-- Choisissez une police Google Fonts et ajoutez-là ici : -->
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+        <!-- on ira ajouter dans le CSS ensuite : font-family: 'Nunito', sans-serif; -->
+        <!-- <link rel="stylesheet" href="font-awesome/css/fontawesome.css"> -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+              crossorigin="anonymous">
+        <meta name="description" content="site HTML - CSS">
+    </head>
+    <body>
+        <!-- header>div*4 -->
+        <header>
+            <div id="logo">
+                <!-- a>button>i -->
+                <a href="#logo">
+                    <button type="button">
+                        <i class="fas fa-arrow-alt-circle-up" aria-hidden="true"></i>
+                        <!-- fa. => classe de FontAwesome -->
+                        <!-- aria-... accès de contenus web plus faciles pour les handicapés => https://developer.mozilla.org/fr/docs/Accessibilit%C3%A9/ARIA -->
+                    </button>
+                </a>
+                <img src="img/logo.png" alt="logo">
+            </div><!-- ./ #logo -->
+
+            <div id="slogan"><h1>Site HTML CSS multipages</h1></div>
+            <div id="social">
+                <a href="https://www.instagram.com" target="_blank">
+                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.facebook.com" target="_blank">
+                    <!-- i.fab.fa-facebook-square[aria-hidden="true"] -->
+                    <i class="fab fa-facebook-square" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="clear"></div>
+        </header>
+
+        <nav id="activ_nav">
+            <a href="index.html">Accueil</a>
+            <a href="texte.html">Texte</a>
+            <a href="selecteur.html">Selecteur</a>
+            <a href="image.html">Image</a>
+            <a href="position.html">Position</a>
+            <a href="zoning.html">Zoning</a>
+            <a href="tableau.html">Tableau</a>
+            <a href="liste.html">Liste</a>
+            <a href="lien_menu.html">Lien & menu</a>
+            <a href="formulaire.html">Formulaire</a>
+            <a href="multimedia.html">Multimedia</a>
+            <a href="animation.html">Animation</a>
+        </nav>
+
+        <main>
+            <h2>Liens & menus</h2>
+            <div class="ancre">
+                <a href="#lien">Les liens</a>
+                <a href="#menu">Menu</a>
+                <a href="#menuDeroulant">Menu déroulant</a>
+            </div>
+            <section id="lien">
+                <h3>Les liens</h3>
+                <!--Dans le lien nous aurons aussi (title="xxx") pour ouvrir fenêtre d'info au passage de la souris sur le lien et (target="_blank") pour envoyer sur un autre onglet"-->
+                <a href="https://codepen.io" title="Se rendre sur le site de CodePen" target="_blank">CodePen</a> is a social development environment for front-end designers and developers.<br>
+                <a href="http://www.google.fr" target="_blank">Google</a> le moteur de recherche.<br>
+                <a href="fichier/cv.doc">Télécharger mon CV</a><br>
+                <!-- On peut ajouter juste un download dans le lien pour rendre téléchargeable le fichier -->
+                <a href="fichier/cv.pdf" target="_blank">Voir mon CV</a><br>
+                <!-- Pour imprimer ma page -->
+                <a href="#" onclick="window.print()">Imprimer la page</a><br>
+                <!--Pour rendre cliquable une image et renvoyer sur le lien inséré dessus-->
+                <a href="https://www.facebook.com/" target="_blank"><img src="img/facebook.ico" alt=""></a><br>
+                <!-- Inséré le lien juste dans " ici " qui renvoi sur une autre page de mon site -->
+                Cliquer <a href="index.html">ici</a> pour vous rendre sur la page.
+            </section>
+            <section id="menu">
+                <h3>Les menus</h3>
+                <nav>
+                    <ul>
+                        <li><a href="#">Accueil</a></li>
+                        <li><a href="#">Parcours</a></li>
+                        <li><a href="#">Réalisations</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+
+            </section>
+            <section id="menuDeroulant">
+                <h3>Les menus déroulants</h3>
+                <nav>
+                    <ul class="niveau1">
+                        <li><a href="#">Accueil</a></li>
+                        <li class="sousMenu"><a href="#">Formation</a>
+                            <ul class="niveau2">
+                                <li><a href="#">Etudiants</a></li>
+                                <li><a href="#">Emploi du temps</a></li>
+                                <li><a href="#">Recherche d'emploi</a></li>
+                                <li><a href="#">Documents</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Informations</a></li>
+                        <li class="sousMenu"><a href="#">Cours</a>
+                            <ul class="niveau2">
+                                <li><a href="#">Internet</a></li>
+                                <li><a href="#">HTML/CSS</a></li>
+                                <li><a href="#">CMS</a></li>
+                                <li><a href="#">Stats</a></li>
+                                <li><a href="#">Réseaux sociaux</a></li>
+                                <li><a href="#">Référencement</a></li>
+                                <li><a href="#">Marketing</a></li>
+                                <li><a href="#">Cachier des charges</a></li>
+                                <li><a href="#">Photoshop</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Mon CV</a></li>
+                    </ul>
+                </nav>
+
+            </section>
+        </main>
+
+        <footer></footer>
+
+        <script src="js/activ.js"></script>
+    </body>
+</html>

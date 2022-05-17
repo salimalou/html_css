@@ -189,40 +189,37 @@ h4 {
 }
 
 .on {
+  width: 358px;
+}
+
+h5 {
   background-color: gray;
   width: 358px;
   height: 42px;
 }
 
 .two {
-  display: flex;
-  width: 358px;
   height: 42px;
-  background-color: gray;
 }
 
 .lol {
   display: flex;
+  justify-content: space-between;
 }
 .tous {
-  display: flex;
-  border: solid gray;
-  margin: 2px;
   text-align: center;
 }
 
 .mil {
   display: flex;
-  border: solid gray;
-  margin: 2px;
   text-align: center;
+  width: 33%;
 }
 
-.droi {
-  width: 100%;
-  border-radius: 16px;
-  border: solid gray;
+.droit {
   display: flex;
+  text-align: center;
+  width: 358px;
 }
 
 .lol img {
@@ -239,3 +236,91 @@ footer ul {
   list-style: none;
   line-height: 16px;
 }
+
+@media screen and (max-width: 800px) {
+  .contenu {
+    width: 100%;
+    text-align: center;
+  }
+
+  .milieu img {
+    width: 744px;
+  }
+
+  nav {
+    width: 825px;
+  }
+
+  header {
+    width: 739px;
+    flex-flow: wrap;
+    height: 300px;
+  }
+
+  .deuxieme {
+    height: 56%;
+  }
+
+  .dernier {
+    display: inline-block;
+    margin: auto;
+  }
+
+  .tout {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .bloc {
+    width: 100%;
+  }
+
+  .lol {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+  }
+
+  h5 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  footer {
+    width: 745px;
+  }
+}
+
+/* @media screen and (max-width: 350px) {
+  .milieu img {
+    width: 744px;
+  }
+
+  nav {
+    width: 1057px;
+    flex-direction: column;
+  }
+
+  header {
+    width: 544px;
+    flex-direction: column;
+    height: 395px;
+  }
+
+  .tout {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .bloc {
+    width: 267%;
+  }
+
+  .lol {
+    width: 280px;
+  }
+
+  footer {
+    width: 745px;
+  }
+} */
