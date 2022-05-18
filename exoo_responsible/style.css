@@ -1,0 +1,88 @@
+.contener {
+  width: 60%;
+  margin: auto;
+}
+
+@font-face {
+  font-family: "Caveat Brush", cursive;
+  font-family: "Macondo", cursive;
+  src: url("../exoo_responsible/fonts/Macondo-Regular.ttf");
+  src: url("../exoo_responsible/fonts/OFL.txt");
+}
+section {
+  margin-top: 50px;
+  background-color: #daf7a6;
+  padding: 20px;
+}
+
+#zoning5 {
+  background: #ecebe9;
+  text-align: center;
+  text-shadow: 1px 1px 2px darkgrey;
+  border: 2px solid black;
+  margin: 0 auto;
+}
+
+#zoning5 header {
+  height: 90px;
+  background: #f8d771;
+}
+
+#zoning5 nav {
+  height: 50px;
+  background: #d6bc6b;
+  border-bottom: 8px solid #c19718;
+}
+
+#zoning5 .section {
+  background: #176d81;
+  margin: 20px;
+  padding: 0;
+}
+
+#zoning5 .section .z1,
+.z2,
+.z3,
+.z4 {
+  height: 250px;
+  width: 50%;
+  float: left;
+}
+
+#zoning5 .z1,
+.z4 {
+  background: #d6bc6b;
+}
+
+#zoning5 .z2,
+.z3 {
+  background: #fce38a;
+}
+
+#zoning5 footer {
+  height: 75px;
+  background: #f8d771;
+}
+
+#zoning5 section,
+footer {
+  color: black;
+}
+.clear {
+  clear: both;
+}
+
+@media screen and (max-width: 500px) {
+  #zoning5 .section .z1 {
+    width: 100%;
+  }
+  #zoning5 .section .z2 {
+    width: 100%;
+  }
+  #zoning5 .section .z3 {
+    width: 100%;
+  }
+  #zoning5 .section .z4 {
+    width: 100%;
+  }
+}

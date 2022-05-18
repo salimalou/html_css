@@ -1,0 +1,36 @@
+/*********************** PAGE ZONING*************/
+
+/***********************Zoning 1************************/
+
+#zoning1 {
+  background: #ffd6d6;
+  width: 800px;
+  text-align: center;
+  text-shadow: 1px 1px 2px darkgrey;
+  margin: auto;
+}
+
+#zoning1 header {
+  height: 70px;
+  background: #f7f39a;
+}
+
+#zoning1 aside {
+  height: 525px;
+  float: left;
+  width: 20%;
+  background: #a3de83;
+}
+
+#zoning1 section {
+  float: left;
+  background: #38817a;
+  height: 525px;
+  width: 80%;
+  margin: 0;
+  padding: 0;
+}
+
+.clear {
+  clear: both;
+}

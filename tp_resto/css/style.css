@@ -1,0 +1,200 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  background-color: black;
+}
+
+header {
+  background-image: url(../img/eggs.jpg);
+  height: 911px;
+  width: 95%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav .prems {
+  color: white;
+  display: flex;
+}
+
+nav ul {
+  /* display: flex;
+  /* justify-content: space-around; */
+  list-style: none;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+header p {
+  color: white;
+  height: 249px;
+  text-align: center;
+  line-height: 503px;
+  font-size: 74px;
+}
+
+header h5 {
+  color: white;
+  text-align: center;
+}
+
+.deu {
+  text-align: end;
+}
+
+.blocc1 h5 {
+  color: gold;
+  font-size: 30px;
+}
+
+.blocc1 a {
+  color: gold;
+  font-size: 18px;
+}
+
+.blocc2 h5 {
+  color: gold;
+  font-size: 30px;
+}
+
+.blocc2 a {
+  color: gold;
+  font-size: 18px;
+}
+
+.prems h6 {
+  width: 62%;
+  font-size: 18px;
+}
+
+.premier {
+  display: flex;
+  width: 56%;
+  margin: auto;
+}
+
+.bloc1 {
+  margin: 11px;
+}
+
+.blocc1 {
+  color: white;
+  margin: 72px;
+}
+
+.deuxieme {
+  display: flex;
+  width: 56%;
+  margin: auto;
+}
+
+.blocc2 {
+  color: white;
+}
+
+.milieu {
+  width: 56%;
+  margin: auto;
+  color: white;
+  padding: 111px;
+}
+
+.a {
+  text-align: center;
+}
+
+.b {
+  text-align: center;
+}
+
+.texte {
+  text-align: center;
+}
+
+.milieu ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.carre {
+  color: white;
+}
+
+.s {
+  color: white;
+  display: flex;
+  width: 30%;
+  margin: auto;
+}
+
+.p {
+  color: white;
+  display: flex;
+  width: 30%;
+  margin: auto;
+}
+
+.sa {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  padding: 111px;
+}
+
+.li {
+  display: flex;
+  color: white;
+}
+
+.ma {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  color: white;
+}
+
+.one {
+  display: flex;
+  /* margin: auto; */
+  margin: auto;
+  padding: 88px;
+}
+
+.tout {
+  color: white;
+  display: flex;
+  padding: 219px;
+  justify-content: space-around;
+}
+
+.lol {
+  width: 42%;
+  color: white;
+}
+
+.lol h4 {
+  color: gold;
+  font-size: 30px;
+}
+
+.lol h2 {
+  font-size: 39px;
+}
+
+.lol a {
+  text-decoration: none;
+  color: gold;
+  font-size: 21px;
+}
+
+.blanc {
+  display: flex;
+}
