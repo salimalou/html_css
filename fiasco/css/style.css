@@ -1,0 +1,458 @@
+@font-face {
+    font-family: "Parisienne-Regular";
+    src: url("../fonts/Parisienne-Regular.ttf");
+}
+
+body {
+    font-family: sans-serif;
+    color: #fff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* pour initialiser toutes les  balises sut tous les nagigateurs */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+.parisienne_font {
+    font-family: "Parisienne-Regular";
+    color: #dba521;
+    text-transform: capitalize;
+}
+
+.contenu {
+    width: 1536px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.contenu2 {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 612px;
+    background: url("../img/eggs.jpg") center transparent no-repeat;
+    text-transform: capitalize;
+}
+
+header>div.filter_header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    backdrop-filter: brightness(30%);
+}
+
+header>div.filter_header>div:last-of-type {
+    padding-top: 70px;
+}
+
+.logo_nav {
+    margin-top: 20px;
+    opacity: 0.5;
+}
+
+.logo {
+    float: left;
+    margin: 0 10px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10px;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav a {
+    /*pour supprimer le soulaigenement sur les liens :*/
+    text-decoration: none;
+    color: #fff;
+    opacity: 60%;
+    border: transparent solid 1px;
+    padding: 5px 10px;
+    border-radius: 2px;
+}
+
+nav a:hover {
+    border: #dba521 solid 1px;
+    opacity: 1;
+}
+
+header h3,
+header h1 {
+    text-align: center;
+}
+
+header h1:first-of-type,
+.sec5>h2 {
+    margin-top: 100px;
+    font-family: "Parisienne-Regular";
+    color: #dba521;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+header h1:nth-of-type(2),
+header h3:last-child,
+.sec5>h2,
+.sec6>h2 {
+    text-transform: uppercase;
+}
+
+main>div.first_sections {
+    width: 70%;
+    margin: 0 auto;
+}
+
+main section:first-of-type {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    font-size: 14px;
+}
+
+main section:first-of-type>div {
+    align-self: center;
+    /* padding: 0 20px; */
+    width: 50%;
+}
+
+h2 {
+    font-family: "Parisienne-Regular";
+    color: #dba521;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+
+main h1 {
+    text-transform: uppercase;
+    padding: 20px 0px;
+}
+
+.pub {
+    position: relative;
+}
+
+.img_pub {
+    position: absolute;
+    left: 300px;
+    top: 0;
+}
+
+.img_pub p {
+    color: red;
+    font-size: 40px;
+    padding: 5px;
+}
+
+.sec2 {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.sec3 {
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
+}
+
+.sec3>div>div {
+    width: 50%;
+}
+
+.sec3>div>div:first-child {
+    float: left;
+}
+
+.sec3>div>div:last-child {
+    float: right;
+}
+
+.sec3>div>div:last-child>img {
+    margin-left: 100px;
+}
+
+.text_chef {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text_chef>div {
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+
+.text_chef>div>img {
+    margin-left: 100px;
+}
+
+.sec5 {
+    width: 100%;
+    height: 600px;
+    background: url("../img/reservation.jpg") center transparent no-repeat;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.sec5>div {
+    width: 70%;
+    margin: auto;
+}
+
+.sec5>div:first-child {
+    padding-top: 100px;
+}
+
+.sec5>div:nth-child(2) {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.sec5>div:nth-child(2)>div {
+    border-radius: 5px;
+    border: #dba521 solid 1px;
+    width: 250px;
+    height: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 50px;
+    opacity: 0.5;
+}
+
+.sec5>div:last-child {
+    width: 300px;
+    height: 50px;
+    background-color: #dba521;
+    border-radius: 10px;
+    line-height: 50px;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+
+.sec6 {
+    width: 70%;
+    text-align: right;
+    margin: 50px auto;
+}
+
+.sec6 p {
+    opacity: 0.5;
+    padding: 20px 0;
+}
+
+footer {
+    background-color: #585858;
+    padding-top: 100px;
+    position: relative;
+}
+
+footer>div:first-child {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+footer>div:last-child {
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: auto;
+}
+
+footer>div:last-child>div {
+    padding: 15px;
+    flex: 2;
+}
+
+footer>div:last-child>div:last-of-type {
+    flex: 1;
+}
+
+footer>div:last-child>div>h3 {
+    text-transform: uppercase;
+    color: #dba521;
+    padding: 15px 0px;
+    font-family: serif;
+}
+
+footer>div:last-child>div>P {
+    opacity: 0.5;
+    margin: 50px 0;
+}
+
+.yellow {
+    color: #dba521;
+}
+
+.clear {
+    clear: both;
+}
+
+iframe {
+    width: 100%;
+    height: 450px;
+}
+
+@media screen and (max-width: 1050px) {
+    .contenu,
+    .contenu2,
+    header,
+    main,
+    section,
+    footer {
+        width: 100%;
+    }
+    header {
+        background: url("../img/eggs_tablette.jpg") center transparent no-repeat;
+    }
+    .text_chef {
+        width: 100%;
+    }
+    .text_chef>div {
+        width: 90%;
+        float: none;
+        margin: auto;
+    }
+    main>div.first_sections {
+        width: 100%;
+        margin: 0 auto;
+    }
+    main section:first-of-type {
+        flex-flow: column wrap;
+    }
+    main section:first-of-type>div {
+        padding: O;
+        width: 100%;
+    }
+    main section:first-of-type>div:first-of-type {
+        order: 1;
+    }
+    main section:first-of-type>div:nth-of-type(2) {
+        order: 2;
+    }
+    main section:first-of-type>div:nth-of-type(3) {
+        order: 4;
+    }
+    main section:first-of-type>div:nth-of-type(4) {
+        order: 3;
+    }
+    .sec3 {
+        width: 100%;
+        flex-flow: column wrap;
+    }
+    .sec3>div>div {
+        width: 100%;
+    }
+    iframe {
+        height: 300px;
+    }
+}

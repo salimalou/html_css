@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Parisienne-Regular";
+  src: url("../fonts/Parisienne-Regular.ttf");
+}
+
 * {
   box-sizing: border-box;
   text-decoration: none;
@@ -12,11 +17,17 @@
 
 header {
   background-image: url(../img/eggs.jpg);
-  height: 911px;
+  height: 791px;
   width: 95%;
   margin: auto;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.filtre_header {
+  width: 100%;
+  height: 100%;
+  backdrop-filter: brightness(30%);
 }
 
 nav .prems {
@@ -33,12 +44,24 @@ nav ul {
   justify-content: space-around;
 }
 
+nav li :hover {
+  border: 1px solid gold;
+  padding: 5px;
+}
+
 header p {
   color: white;
-  height: 249px;
   text-align: center;
-  line-height: 503px;
   font-size: 74px;
+}
+
+header h2 {
+  color: gold;
+  font-family: "Parisienne-Regular";
+  text-transform: capitalize;
+  text-align: center;
+  padding-top: 180px;
+  font-size: 61px;
 }
 
 header h5 {
@@ -50,9 +73,20 @@ header h5 {
   text-align: end;
 }
 
+.contour1 {
+  border: 1px solid gold;
+  position: absolute;
+  bottom: 3px;
+  width: 402px;
+  height: 453px;
+  left: -51px;
+}
+
 .blocc1 h5 {
   color: gold;
   font-size: 30px;
+  font-family: "Parisienne-Regular";
+  text-transform: capitalize;
 }
 
 .blocc1 a {
@@ -63,6 +97,8 @@ header h5 {
 .blocc2 h5 {
   color: gold;
   font-size: 30px;
+  font-family: "Parisienne-Regular";
+  text-transform: capitalize;
 }
 
 .blocc2 a {
@@ -73,6 +109,7 @@ header h5 {
 .prems h6 {
   width: 62%;
   font-size: 18px;
+  margin: 12px;
 }
 
 .premier {
@@ -83,6 +120,7 @@ header h5 {
 
 .bloc1 {
   margin: 11px;
+  position: relative;
 }
 
 .blocc1 {
@@ -100,11 +138,31 @@ header h5 {
   color: white;
 }
 
+.bloc2 {
+  position: relative;
+}
+
+.contour2 {
+  border: 1px solid gold;
+  position: absolute;
+  bottom: 3px;
+  width: 402px;
+  height: 453px;
+  left: 0px;
+}
+
 .milieu {
   width: 56%;
   margin: auto;
   color: white;
   padding: 111px;
+}
+
+.milieu h5 {
+  color: gold;
+  font-size: 28px;
+  font-family: "Parisienne-Regular";
+  text-transform: capitalize;
 }
 
 .a {
@@ -122,6 +180,8 @@ header h5 {
 .milieu ul {
   display: flex;
   justify-content: space-around;
+  padding: 45px;
+  list-style: none;
 }
 
 .carre {
@@ -183,6 +243,8 @@ header h5 {
 .lol h4 {
   color: gold;
   font-size: 30px;
+  font-family: "Parisienne-Regular";
+  text-transform: capitalize;
 }
 
 .lol h2 {
@@ -197,4 +259,200 @@ header h5 {
 
 .blanc {
   display: flex;
+  text-align: center;
+}
+
+.s img {
+  height: 166px;
+  margin: auto;
+}
+
+.blanc h4 {
+  color: gold;
+}
+
+.blanc .gras,
+.italique {
+  font-size: 20px;
+}
+
+.noir {
+  color: white;
+  display: flex;
+  width: 30%;
+  margin: auto;
+}
+
+.nwar {
+  display: flex;
+}
+
+.bloc6 {
+  color: white;
+  display: flex;
+  width: 30%;
+  margin: auto;
+}
+
+.salima {
+  text-align: center;
+}
+
+.louisor {
+  text-align: center;
+}
+
+.salima h4 {
+  color: gold;
+  font-family: "Parisienne-Regular";
+  text-transform: capitalize;
+}
+
+.louisor h4 {
+  color: gold;
+  font-family: "Parisienne-Regular";
+  text-transform: capitalize;
+}
+
+.louisor .gras {
+  font-size: 20px;
+}
+
+.fond {
+  background-image: url(../img/reservation.jpg);
+  height: 600px;
+  width: 94%;
+  margin: auto;
+}
+
+.fond h2 {
+  text-align: center;
+  padding-top: 95px;
+  font-size: 34px;
+  color: gold;
+  font-family: "Parisienne-Regular";
+  text-transform: capitalize;
+}
+
+.fond h4 {
+  text-align: center;
+  font-size: 25px;
+}
+
+.fond p {
+  text-align: center;
+}
+
+.k {
+  display: flex;
+  justify-content: space-around;
+  width: 51%;
+  margin: auto;
+}
+
+.full h3 {
+  border: 2px solid grey;
+  color: gray;
+  padding: 8px;
+}
+
+.personne h3 {
+  border: 2px solid grey;
+  color: gray;
+  padding: 8px;
+}
+
+.date h3 {
+  border: 2px solid grey;
+  color: gray;
+  padding: 8px;
+}
+
+.l p {
+  background-color: gold;
+  width: 170px;
+  margin: auto;
+  height: 23px;
+  padding-top: 3px;
+}
+
+.bientot h4 {
+  color: gold;
+  font-size: 27px;
+  text-align: end;
+  width: 89%;
+  margin: auto;
+  padding-top: 64px;
+  padding-bottom: 34px;
+  font-family: "Parisienne-Regular";
+  text-transform: capitalize;
+}
+
+.bientot h3 {
+  font-size: 27px;
+  text-align: end;
+  width: 89%;
+  margin: auto;
+
+  padding-bottom: 34px;
+}
+
+.bientot p {
+  text-align: end;
+  width: 89%;
+  margin: auto;
+}
+
+.cote {
+  text-align: end;
+  width: 94%;
+  padding-top: 21px;
+}
+
+.full {
+  opacity: 3;
+}
+
+.cote a {
+  color: gold;
+}
+
+.maps iframe {
+  width: 1461px;
+}
+
+.maps {
+  padding-left: 27px;
+  padding-top: 32px;
+}
+
+footer {
+  background-color: gray;
+  display: flex;
+  height: 323px;
+}
+
+.m {
+  width: 33%;
+  margin: auto;
+  padding: 63px;
+}
+
+.n {
+  width: 33%;
+  margin: auto;
+  padding-bottom: 86px;
+  padding-right: 67px;
+}
+
+.o {
+  width: 33%;
+  margin: auto;
+  padding-bottom: 86px;
+}
+
+@media (max-width: 800px) {
+  .container {
+    width: 1506px;
+  }
 }
