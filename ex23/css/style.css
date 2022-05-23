@@ -1,0 +1,62 @@
+header {
+  background-color: pink;
+  width: 100%;
+  height: 200px;
+}
+
+main {
+  display: flex;
+}
+
+section {
+  background-color: lightgray;
+  width: 1500px;
+  height: 300px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+footer {
+  background-color: pink;
+  width: 100%;
+  height: 100px;
+}
+
+/* aside {
+  background-color: lightblue;
+  width: 30%;
+} */
+
+.bloc,
+.bloc1,
+.bloc2,
+.bloc3,
+.bloc4,
+.bloc4,
+.bloc5,
+.bloc6,
+.bloc7,
+.bloc8,
+.bloc9 {
+  background-color: black;
+  width: 450px;
+  margin: 2px;
+}
+
+@media screen and (max-width: 800px) {
+  section {
+    height: 500px;
+    width: 100%;
+  }
+
+  main {
+    flex-direction: column;
+  }
+
+  /* aside {
+    width: 100%;
+    height: 150px;
+  } */
+}
