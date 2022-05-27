@@ -1,0 +1,89 @@
+header {
+  width: 100%;
+  background-color: lightblue;
+}
+
+.bloc {
+  background-color: lemonchiffon;
+  width: 1500px;
+  height: 300px;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.one {
+  width: 30%;
+  margin: 5px;
+}
+
+.bloc2,
+.bloc3 {
+  background-color: pink;
+  height: 48%;
+  margin: 2px;
+}
+
+.two {
+  width: 30%;
+  margin: 5px;
+}
+
+.bloc4,
+.bloc5 {
+  background-color: pink;
+  height: 48%;
+  margin: 2px;
+}
+
+/* .bloc2,
+.bloc3,
+.bloc4,
+.bloc5 {
+  width: 30%;
+  height: 50%;
+  background-color: pink;
+  margin: 5px;
+} */
+
+main {
+  width: 1500px;
+  background-color: pink;
+  height: 500px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bloc7,
+.bloc8,
+.bloc9,
+.bloc10,
+.bloc11,
+.bloc12,
+.bloc13,
+.bloc14 {
+  background-color: lightblue;
+  width: 200px;
+  height: 200px;
+  margin: 23px;
+}
+
+footer {
+  width: 100%;
+  height: 300px;
+  background-color: wheat;
+}
+
+.premier {
+  height: 50%;
+  background-color: lightblue;
+  margin: 3px;
+  display: flex;
+}
+
+.deuxieme {
+  background-color: lightgreen;
+  height: 50%;
+  margin: 2px;
+}
