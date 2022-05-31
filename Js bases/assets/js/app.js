@@ -251,3 +251,10 @@ const maFonction2 = function () {
 let resultatMaFoction2 = maFonction2();
 console.log(animal);
 console.log(resultatMaFoction2);
+
+function ecrire(texte) {
+  article.innerHTML += `<p><i>${t}</i></p>`;
+  return texte.length;
+}
+
+ecrire(123);
