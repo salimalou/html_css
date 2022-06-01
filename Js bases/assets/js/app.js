@@ -253,8 +253,83 @@ console.log(animal);
 console.log(resultatMaFoction2);
 
 function ecrire(texte) {
-  article.innerHTML += `<p><i>${t}</i></p>`;
+  article.innerHTML += `<p><i>${texte}</i></p>`;
+  console.log(this);
   return texte.length;
 }
 
-ecrire(123);
+// let tailleTexte = ecrire("Bonsoir !! Passez une super soirée !!");
+// ecrire2("le texte fait" + tailleTexte + "caractères...jfindpfiiiiiiiujnfisucn");
+
+function ecrire2(texte) {
+  if (texte.length <= 50) {
+    let taille = ecrire(texte);
+    return taille;
+  } else {
+    article.innerHTML += `<p><i>Texte trop long (max 50 caracteres) !</i></p>`;
+    return 0;
+  }
+}
+
+var tailleChaine = ecrire2("Hello, je fait moins de 50!!");
+console.log("tailleChaine:", tailleChaine);
+
+// Les fonctions automatiques sont executées dès qu'elle sont lues par l'interpreteur.
+
+(function autoFonction(e) {
+  console.log("autoFonction en cours : " + e);
+})("parametres de autoFonction");
+
+((e) => {
+  console.log("parametre de fonction AUTO et FLECHEE:", e);
+})("parametre");
+
+// Fonction de rappel: Les callBacks
+
+function salutation(name) {
+  if (name) {
+    alert("Bonjour  " + name);
+  }
+}
+// function executeTache1(){
+// window.setTimeout(() =>{
+//   console.log('fin de tache 1')
+// }, 4000);
+// }
+processUserInput(salutation);
+function processUserInput(callBacks) {
+  let nom = prompt("fonction processUserInput: Entrez votre nom.");
+  typeof callBacks === "function" && callBacks(nom);
+}
+
+// Très souvent les callback seront définies directement dans l'appel de la fonction
+// englobante:
+
+processUserInput((name) => {
+  if (name) {
+    alert("salut à toi " + name + "!");
+  }
+});
+
+// Les paramètres de la callback sont définis dans la fonction englobante
+// et passée à la callback
+
+function processUserInput2(callback) {
+  let name = prompt("Fonction processUserInput2() : Entrez votre nom.");
+  let index = 5;
+  typeof callback === "function" && callback(name, index);
+}
+
+processUserInput2((n, i) => {
+  console.log(n);
+  console.log(i);
+  if (n) {
+    alert("salut" + n) + "lindex fourni est" + i;
+  }
+});
+
+var docChildren = document.children;
+console.log(docChildren);
+
+var docNodes = document.childNodes;
+console.log(docNodes);
