@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/app.css">
+</head>
+<body>
+
+    <button id="b1">Changer en bleu</button>
+    <button id="b2" class="big-font">Toggle</button>
+    <div class="afficher">
+        <p id="p1">Un premier paragraphe</p>
+        <p>Un deuxième paragraphe</p>
+    </div>
+    <p id="p3">Troisième paragraphe hors div</p>
+    <p>Un <a href="https://www.pierre-giraud.com">lien</a> vers mon site</p>
+    <span id="valAttr" class="green"></span>
+    <br>
+    <input id="check1" type="checkbox" checked="toto">
+    <label for="check1">Cochez / décochez moi</label>
+    <br>
+    <input id="check2" type="checkbox">
+    <label for="check2">Cochez / décochez moi</label>
+
+    <div>
+        <label for='prenom'>Entrez un prenom : </label>
+        <input type='text' id='prenom' name='prenom'>
+    </div>
+    <p>Valeur de l'input : <span id="valInput"></span></p>
+    <div>
+        <select multiple='multiple'>
+            <option>Option 1</option>
+            <option>Option 2</option>
+            <option>Option 3</option>
+        </select>
+    </div>
+    <p>Valeur du select : <span id="valSelect"></span></p>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" 
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
+    crossorigin="anonymous"></script>
+
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
