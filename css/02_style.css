@@ -1,51 +1,81 @@
-        /* commentaires en css */
-        
-        * {
-            text-align: right;
-        }
-        
-        body {
-            background: #f5deb3;
-        }
-        
-        header {
-            background-color: #900c3f;
-            color: #fff;
-            height: 100px;
-        }
-        
-        nav {
-            background-color: #daf7a6;
-            height: 60px;
-        }
-        
-        section {
-            background-color: #daf7a6;
-            height: 550px;
-        }
-        
-        article {
-            background-color: #daf7a6;
-            height: 66px;
-        }
-        
-        footer {
-            background-color: #daf7a6;
-            height: 66px;
-        }
-        
-        nav,
-        footer {
-            color: #a93226;
-        }
-        
-        .jaune {
-            background-color: yellow;
-        }
-        
-        #noir {
-            background-color: black;
-            color: #fff;
-            text-align: justify;
-            font-size: 25px;
-        }
+/* commentaires en css */
+
+* {
+  text-align: right;
+}
+
+body {
+  background: #f5deb3;
+}
+
+header {
+  background-color: #900c3f;
+  color: #fff;
+  height: 100px;
+}
+
+nav {
+  background-color: #daf7a6;
+  height: 60px;
+}
+
+section {
+  background-color: #daf7a6;
+  height: 550px;
+}
+
+article {
+  background-color: #daf7a6;
+  height: 66px;
+}
+
+footer {
+  background-color: #daf7a6;
+  height: 66px;
+}
+
+nav,
+footer {
+  color: #a93226;
+}
+
+.jaune {
+  background-color: yellow;
+}
+
+#noir {
+  background-color: black;
+  color: #fff;
+  text-align: justify;
+  font-size: 25px;
+}
+
+.disparait {
+  animation: 1s disparait ease-in-out;
+}
+
+@keyframes disparait {
+  0% {
+    width: 100px;
+
+    height: 100px;
+  }
+
+  50% {
+    width: 0px;
+
+    height: 0px;
+  }
+
+  75% {
+    width: 0px;
+
+    height: 0px;
+  }
+
+  100% {
+    width: 100px;
+
+    height: 100px;
+  }
+}

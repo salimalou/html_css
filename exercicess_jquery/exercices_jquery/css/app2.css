@@ -1,0 +1,25 @@
+.disparait {
+  animation: 1s disparait ease-in-out;
+}
+
+@keyframes disparait {
+  0% {
+    width: 100px;
+    height: 100px;
+  }
+
+  50% {
+    width: 0px;
+    height: 0px;
+  }
+
+  75% {
+    width: 0px;
+    height: 0px;
+  }
+
+  100% {
+    width: 100px;
+    height: 100px;
+  }
+}
