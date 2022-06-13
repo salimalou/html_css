@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    padding-bottom: 200px;
+}
+
+h1{
+    background-color: lightBlue;
+}
+
+.no-bkg {
+    background: transparent;
+}
+
+.w-400 {
+    width: 400px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.bleu{
+    background-color: lightBlue;
+}
+
+.orange{
+    background-color:orange;
+}
+
+.carre, .carre2, .carre3, .carre4, .carre5 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border: 2px solid black;
+}
+
+#b8, #b9, #b11, #b13, #b15 {
+    margin-bottom: 20px;
+}

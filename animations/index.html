@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/app.css">
+</head>
+<body>
+
+    <!-- La methode animate() sur width, height et font-size -->
+    <h1 class="no-bkg">La methode animate() sur width, height et font-size</h1>
+    <div id="ex1" class="w-400">
+        <h1>Titre principal</h1>
+        <button id="b1">animate width</button>
+        <button id="b2">animate height</button>
+        <button id="b3">animate font-size</button>
+    </div>
+
+    <!-- animations combinées -->
+    <h1 class="mt-100 no-bkg">animations combinées</h1>
+    <div id="ex2" class="w-400">
+        <h1>Titre principal</h1>
+        <button id="b4">animate </button>
+    </div>
+
+    <!-- animations successives automatiques -->
+    <h1 class="mt-100 no-bkg">animations successives automatiques</h1>
+    <div id="ex3" class="w-400">
+        <h1>Titre principal</h1>
+        <button id="b5">animation </button>
+    </div>
+
+    <!-- Suppression de la file d'attente dans des animations successives -->
+    <h1 class="mt-100 no-bkg">Suppression de la file d'attente dans des animations successives</h1>
+    <div id="ex4" class="w-400">
+        <h1>Titre principal</h1>
+        <button id="b6">animation </button>
+    </div>
+
+
+    <!-- la file d'attente -->
+    <h1 class="mt-100 no-bkg">La file d'attente</h1>
+    <div id="ex5" class="w-400">
+        <h1>Titre principal</h1>
+        <button id="b7">Animation</button>
+        <p id="p1">Taille de la queue : <span style="font-size: 18px;"></span></p>
+    </div>
+
+
+    <!-- Interferer avec la file d'attente dequeue() -->
+    <h1 class="mt-100 no-bkg">Interferer avec la file d'attente</h1>
+    <button id="b8">Animation du carré</button>
+    <div class="carre orange"></div> 
+
+
+    <!-- Suppripmer la file d'attente clearQueue() -->
+    <h1 class="mt-100 no-bkg">clearQueue()</h1>
+    <button id="b9">Animation du carré</button>
+    <button id="b10">Supprimer la file</button>
+    <div class="carre2 orange"></div> 
+
+
+    <!-- Stopper une animation stop() et finish() -->
+    <h1 class="mt-100 no-bkg">Stopper une animation stop() et finish()</h1>
+    <button id="b11">Animation du carré</button>
+    <button id="b12">Stopper l'animation</button>
+    <div class="carre3 orange"></div> 
+
+    <!-- La methode finish() -->
+    <h1 class="mt-100 no-bkg">La methode finish()</h1>
+    <button id="b13">Animation du carré</button>
+    <button id="b14">Terminer l'animation</button>
+    <div class="carre4 orange"></div> 
+
+    <!-- ajouter un délai à l'exécution -->
+    <h1 class="mt-100 no-bkg">ajouter un délai à l'exécution</h1>
+    <button id="b15">Animation du carré</button>
+    <div class="carre5 orange"></div> 
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" 
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
+    crossorigin="anonymous"></script>
+
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
