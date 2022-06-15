@@ -62,5 +62,5 @@ $(function () {
     "https://cdn.pixabay.com/photo/2020/05/17/06/45/butterfly-5180306_960_720.jpg",
   ];
 
-  var sliderPrincipal = new MySlider($("#slider"), slideImg);
+  var sliderPrincipal = new MySlider($(".simple-slider"), slideImg);
 });
